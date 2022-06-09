@@ -8,9 +8,10 @@ const BooksContainer = ({books}) => {
         </H2>
         <BookList>
             {books.map((book) =>(
-                <Book key = {book.id} book={book} />
+                <Book key={book.id} book={book} />
             ) )}
         </BookList>
+        console.log(books);
 
     </Container>
 }

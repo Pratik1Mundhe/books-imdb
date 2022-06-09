@@ -9,6 +9,7 @@ const Book = ({book}) => {
          <Title>{book.title}</Title>
          <Author>{book.author}</Author>
      </figcaption>
+     console.log(book);
  </Container>
 
 }
